@@ -7,14 +7,14 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "ng": "ng",
+    "dev": "ng serve",
     "start": "node server.js",
     "build": "ng build",
-    "heroku-postbuild": "ng build --aot --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "git push origin develop && git push heroku develop"    
+    "heroku-postbuild": "ng build --aot -prod",
+    "deploy": "git push origin develop && git push heroku develop"   
   },
   "private": true,
   "dependencies": {
