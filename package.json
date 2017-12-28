@@ -1,11 +1,12 @@
 {
   "name": "moayad",
-  "engines": {
-    "npm":"3.10.10",
-    "node":"6.11.2"
-  },
+ 
   "version": "0.0.0",
   "license": "MIT",
+  "engines": {
+    "npm":"3.10.10",
+    "node":"v6.11.2"
+  },
   "scripts": {
     "dev": "ng serve",
     "start": "node server.js",
