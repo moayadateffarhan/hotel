@@ -1,5 +1,4 @@
 # Moayad
-<<<<<<< HEAD
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.2.
 
@@ -29,8 +28,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # Angular CLI Heroku Boilerplate
 This README outlines how to quickly deploy your Angular CLI project to Heroku.
-=======
->>>>>>> 4d91bff672b0211c38c860040fdba567795a6b61
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.2.
 
