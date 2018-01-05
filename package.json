@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall":"ng build --aot -prod",
-    "start":"node server.js"
+    "postinstall": "ng build --aot -prod",
+    "start": "node server.js"
   },
   "private": true,
   "dependencies": {
@@ -34,7 +34,7 @@
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
-    "@angular/compiler-cli": "^5.0.0",    
+    "@angular/compiler-cli": "^5.0.0",
     "@angular/language-service": "^5.0.0",
     "@angular/router": "^5.1.2",
     "@types/datatables.net": "^1.10.8",
@@ -58,8 +58,9 @@
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
     "typescript": "~2.4.2"
-  },"engines":{
-    "node":"9.3.0",
-    "npm":"5.5.1"
+  },
+  "engines": {
+    "node": "9.3.0",
+    "npm": "5.5.1"
   }
 }
