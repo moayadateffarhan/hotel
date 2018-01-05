@@ -8,12 +8,12 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot -prod",
     "start": "node server.js"
   },
   "private": true,
   "dependencies": {
     "@angular/cli": "1.6.2",
+    "@angular/compiler-cli": "^5.0.0",    
     "@angular/animations": "^5.0.0",
     "@angular/common": "^5.0.0",
     "@angular/compiler": "^5.0.0",
@@ -34,7 +34,6 @@
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
-    "@angular/compiler-cli": "^5.0.0",
     "@angular/language-service": "^5.0.0",
     "@angular/router": "^5.1.2",
     "@types/datatables.net": "^1.10.8",
